@@ -11,7 +11,7 @@ for i in list_1:
         else:
             list_1[c] = '"' + '0' + list_1[c] + '"'
     else:
-        (i.find('+') >= 0)
+        #(i.find('+') >= 0)
         list_1[c] = list_1[c].replace('+5', '"+05"')
     c += 1
 print(list_1)
